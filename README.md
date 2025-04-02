@@ -86,3 +86,83 @@ feedback e avaliações sobre suas estadias nos hotéis.
 2. Deve suportar 10000 acessos simultâneos sem perca de estabilidade.
 3. Versões nativas ao IOS/Android com aplicativo nativo, e uma versão nativa para o desktop
 4. Transações devem seguir a LGPD
+
+# levantamento-de-requisitos: Cenário 2
+# Aplicativo de gerenciamento de tarefas
+# Necessidades do Software:
+* Criação de Tarefas: Os usuários devem poder criar novas tarefas e atribuir prazos e prioridades a elas.
+* Organização de Tarefas: Os usuários devem poder organizar suas tarefas por categorias, projetos ou status.
+* Acompanhamento de Progresso: O sistema deve permitir que os usuários marquem tarefas como concluídas e acompanhem seu progresso ao longo do tempo.
+* Colaboração em Equipe: O sistema deve facilitar a colaboração entre membros da equipe, permitindo atribuição de tarefas e comunicação integrada.
+* Integração com Calendário: O sistema deve integrar-se com aplicativos de calendário para sincronizar prazos e compromissos.
+# Tecnicas aplicadas para o levantamento de requisitos:
+# Workshops:
+Foi realizado um Workshop com todos os índividuos que contribuiriam para a aplicação, lá foram debatidos inúmeras ideias, algumas boas outras ruins. O principal tema debatido nessa "reunião" foi sobre funcionalidades que o app deveria ter, ideias boas foram acatadas já outras não tão interessantes foram descartadas, dentre as boas surgiram ideias como por exemplo:
+* Criação de Tarefas: Os usuários devem poder criar novas tarefas e atribuir prazos e prioridades a elas.
+* Organização de Tarefas: Os usuários devem poder organizar suas tarefas por categorias, projetos ou status.
+* Acompanhamento de Progresso: O sistema deve permitir que os usuários marquem tarefas como concluídas e acompanhem seu progresso ao longo do tempo.
+* Colaboração em Equipe: O sistema deve facilitar a colaboração entre membros da equipe, permitindo atribuição de tarefas e comunicação integrada.
+* Integração com Calendário: O sistema deve integrar-se com aplicativos de calendário para sincronizar prazos e compromissos.
+- Nosssa equipe anotou todas as ideias e documentou ela de maneira a apresenta-las em entrevistas posteriores aos steakholdrs.
+# Observação (Estudo)
+Foi tirado um dia de trabalho para estudar aplicações semelhantes ao nosso, o time documentou funcionalidades escenciais para o bom funcionamento do app. foram realizados discussões internas à respeito do que seria mantido, e do que já estava defasado. Anotações foram feitas e posteriormente mostradas aos steakholders em uma entrevista.
+# Questionario:
+Nossa equipe criou um questionário e enviou a emails cadastrados em banco de dados de faculdade, dentro desta enquete foram feitas as seguintes perguntas:
+1. Qual o seu maior desejo para uma aplicação de gerenciamento de tarefas?
+2. Qual sua maior dificuldade atualmente em gerenciar suas tarefas?
+3. Desejam ser beta- testers da aplicação?
+# Respostas
+1.1. Melhorar a organização dos estudos e otimizar o tempo livre. Acessar materiais de forma rápida e intuitiva pelo celular. Ter ferramentas para revisão, como flashcards e quizzes interativos. Receber notificações de lembretes para manter a disciplina nos estudos Dificuldade em manter a constância nos estudos por conta da rotina corrida. Falta de materiais objetivos que vão direto ao ponto. Distração com redes sociais e dificuldade em manter o foco.
+2.1 Debatemos que de acordo com as respostas obtidas uma maneira de solucionar as frustações que foram relatadas seria: Criar um planejador de estudos com lembretes personalizados. Disponibilizar vídeo-aulas curtas e resumos interativos. Incluir flashcards e quizzes para facilitar a memorização. Oferecer um modo "Foco", bloqueando notificações externas durante o estudo.
+2.2 E a respeito de desejos para a aplicação foi extraido que:
+* Planejador de Estudos Personalizado:
+Permite ao Lucas criar um cronograma de estudos diário ou semanal, com lembretes para que ele possa acompanhar seu progresso. Ele pode definir metas diárias, como estudar por 1 hora para uma determinada matéria.
+* Vídeo-Aulas Curtas e Resumos Interativos
+Acesso a vídeos de 5 a 10 minutos por matéria, explicando tópicos essenciais de forma dinâmica e objetiva. Resumos interativos para facilitar o entendimento e a memorização rápida.
+* Flashcards e Quizzes Interativos
+Criar flashcards personalizados com perguntas-chave para revisão. Quizzes interativos baseados nas videoaulas, para testar o conhecimento de forma gamificada.
+*Modo Foco
+Bloqueia notificações do celular e redes sociais para garantir que o Lucas se concentre completamente nos estudos. O modo também pode ajustar o brilho da tela e minimizar distrações enquanto ele está no app.
+* Revisão de tempos em tempos (Revisão Espaçada ou Spaced Repetition)
+Sistema que oferece a revisão de conteúdos em intervalos otimizados para a memória de longo prazo, garantindo que o Lucas memorize melhor o conteúdo.
+* Biblioteca de Materiais
+Acesso a uma vasta biblioteca de materiais, artigos e PDFs relacionados à Engenharia Civil (ou outros cursos) que o Lucas pode acessar rapidamente.
+* Notificações de Lembretes e Estímulos
+Notificações personalizadas para ajudar Lucas a manter o foco e a constância. Alertas de estudos, novos quizzes ou videoaulas para manter o ritmo.
+* Modo Offline
+Permite que o Lucas baixe conteúdos (videoaulas, resumos e quizzes) para estudar sem depender de conexão com a internet.
+* Gamificação
+O app pode ter um sistema de pontos, medalhas ou conquistas para motivar o Lucas a continuar estudando e alcançar suas metas. 
+3. Obtivemos muitas respostas afirmativas, realizamos um sorteio com todos os nomes, foram sorteados 20 betas- testers.
+# Prototipagem: 
+Criação de versões preliminares do sistema para validar os requisitos obtidos nos questionários. versões de baixa fidelidade foram enviado aos 20 alunos, cada uma dela testando uma demanda diferente e coletando feddbacks para melhoria da aplicação. seguimos toda a produção do app nesse estilo, criações de baixa fidelidade, análise de feedback, melhorias. Antes da data de lançamento lançamos a versão cpmpleta com tudo implementado, enviamos aos estudantes e coletamos os últimos feedbacks de ajustes. Logo depois o app foi lançado.
+
+# Requisitos Funcionais:
+Cadastro e Login: Esses são os pontos de entrada para que o usuário comece a personalizar sua experiência e acesse funcionalidades exclusivas. Eles permitem que cada usuário tenha seu próprio perfil.
+
+Criar tarefas: Permitir que usuarios criem novas tarefas e atribuam prazos e prioridades a elas.
+
+Categoria: Permitir que organizem suas tarefas por categoria, projetos ou status.
+
+Marcações: Permitir a marcação de tarefas como concluídas e acompanhem seu progresso ao longo do tempo.
+
+Criar grupo: Facilitar a colaboração entre membros da equipe, permitindo atribuição de tarefas e comunicação integrada. (dar uma olhada)
+
+Calendario: O sistema deve integrar-se com aplicativos de calendário para sincronizar prazos e compromissos. (dar uma olhada)
+
+# Requisitos NÃO Funcionais:
+Desempenho: O sistema deve ser rápido e processar as informações em poucos segundos, para não deixar os usuários esperando muito.
+
+Escalabilidade: O sistema deve ser capaz de funcionar bem mesmo quando mais pessoas começam a usá-lo ao mesmo tempo.
+
+Segurança: O sistema deve proteger os dados dos usuários para que ninguém não autorizado consiga acessá-los.
+
+Usabilidade: O sistema deve ser fácil de usar, com menus e botões claros para que todos consigam utilizá-lo sem dificuldades.
+
+Compatibilidade: O sistema deve funcionar em diferentes computadores, celulares e navegadores de internet, para que qualquer um possa acessá-lo.
+
+Manutenibilidade: O sistema deve ser fácil de atualizar e consertar, caso algum problema apareça, sem atrapalhar o uso.
+
+Disponibilidade: O sistema deve estar disponível para uso na maior parte do tempo, sem muitos períodos de “fora do ar”.
+
+Backup e Recuperação: O sistema deve ter cópias de segurança dos dados, para que nada seja perdido se ocorrer algum problema.
