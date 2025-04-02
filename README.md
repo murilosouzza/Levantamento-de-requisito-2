@@ -113,7 +113,9 @@ Nossa equipe criou um questionário e enviou a emails cadastrados em banco de da
 3. Desejam ser beta- testers da aplicação?
 # Respostas
 1.1. Melhorar a organização dos estudos e otimizar o tempo livre. Acessar materiais de forma rápida e intuitiva pelo celular. Ter ferramentas para revisão, como flashcards e quizzes interativos. Receber notificações de lembretes para manter a disciplina nos estudos Dificuldade em manter a constância nos estudos por conta da rotina corrida. Falta de materiais objetivos que vão direto ao ponto. Distração com redes sociais e dificuldade em manter o foco.
+
 2.1 Debatemos que de acordo com as respostas obtidas uma maneira de solucionar as frustações que foram relatadas seria: Criar um planejador de estudos com lembretes personalizados. Disponibilizar vídeo-aulas curtas e resumos interativos. Incluir flashcards e quizzes para facilitar a memorização. Oferecer um modo "Foco", bloqueando notificações externas durante o estudo.
+
 2.2 E a respeito de desejos para a aplicação foi extraido que:
 * Planejador de Estudos Personalizado:
 Permite ao Lucas criar um cronograma de estudos diário ou semanal, com lembretes para que ele possa acompanhar seu progresso. Ele pode definir metas diárias, como estudar por 1 hora para uma determinada matéria.
